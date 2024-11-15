@@ -36,8 +36,8 @@ nav a:hover {
 }
 
 .menu {
-    top: 160px;
-    background-color: #f44336;
+    top: 140px;
+    background-color: #555;
 }
 
 .contact {
@@ -49,4 +49,29 @@ p {
     font-size: 30px;
     margin-left: 120px;
     color: darkgoldenrod;
+}
+
+li {
+    font-size: 25px;
+    margin-left: 80px;
+    color: darkblue;
+}
+
+ul {
+    font-size: 35px;
+    margin-left: 45px;
+    color: brown;
+}
+
+footer p {
+    font-size: 30px;
+    margin-left: 120px;
+    color: darkorchid;
+}
+
+img {
+    margin-left: 90%;
+    display: flex;
+    position: fixed ;
+    background-color: darkslategrey;
 }
