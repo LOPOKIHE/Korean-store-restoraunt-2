@@ -1,12 +1,12 @@
 body {
     font-family: sans-serif;
-    background-image: linear-gradient(darkslategrey, grey);
+    background-image:  linear-gradient(black, #3F3D3F);
 }
 
 h1 {
     text-align: center;
     margin-bottom: 20px;
-    color: brown;
+    color: red;
 }
 
 a {
@@ -27,7 +27,8 @@ nav a:hover {
 
 .about {
     top: 20px;
-    background-image: linear-gradient(to right, navy, blue);
+    color: black;
+    background-color: white;
 }
 
 .workers {
@@ -37,31 +38,37 @@ nav a:hover {
 
 .menu {
     top: 140px;
-    background-image: linear-gradient(to right, #555, grey);
+    background-image: linear-gradient(to right, black, #43433B);
 }
 
 p {
     font-size: 30px;
     margin-left: 120px;
-    color: grey;
+    color: white;
 }
 
 li {
     font-size: 25px;
     margin-left: 80px;
-    color: darkblue;
+    color: white;
 }
 
 ul {
     font-size: 35px;
     margin-left: 45px;
-    color: brown;
+    color: red;
 }
 
 footer p {
     font-size: 30px;
     margin-left: 120px;
     color: darkslate;
+}
+
+header img {
+    display: flex;
+    position: relative;
+    Left: 80%
 }
 
 img {
