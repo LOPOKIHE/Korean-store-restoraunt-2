@@ -1,6 +1,6 @@
 body {
     font-family: sans-serif;
-    background-color: darkslategray;
+    background-image: linear-gradient(darkslategrey, grey);
 }
 
 h1 {
@@ -27,28 +27,23 @@ nav a:hover {
 
 .about {
     top: 20px;
-    background-color: #4CAF50;
+    background-image: linear-gradient(to right, navy, blue);
 }
 
 .workers {
     top: 80px;
-    background-color: #2196F3;
+    background-image: linear-gradient(to right, darkred, brown);
 }
 
 .menu {
     top: 140px;
-    background-color: #555;
-}
-
-.contact {
-    top: 230px;
-    background-color: #555;
+    background-image: linear-gradient(to right, #555, grey);
 }
 
 p {
     font-size: 30px;
     margin-left: 120px;
-    color: darkgoldenrod;
+    color: grey;
 }
 
 li {
@@ -66,12 +61,10 @@ ul {
 footer p {
     font-size: 30px;
     margin-left: 120px;
-    color: darkorchid;
+    color: darkslate;
 }
 
 img {
-    margin-left: 90%;
     display: flex;
-    position: fixed ;
-    background-color: darkslategrey;
+    position: relative;
 }
