@@ -1,6 +1,10 @@
 body {
     font-family: sans-serif;
-    background-image:  linear-gradient(black, #3F3D3F);
+}
+
+body {
+    font-family: sans-serif;
+    background-image:  linear-gradient(black, black, #3F3D3F);
 }
 
 h1 {
@@ -68,10 +72,68 @@ footer p {
 header img {
     display: flex;
     position: relative;
-    Left: 80%
+    Left: 80%;
+    width: 200px;
+    height: 200px;
+}
+
+header img:hover {
+    display: flex;
+    position: relative;
+    Left: 80%;
+    width: 200px;
+    height: 200px;
 }
 
 img {
     display: flex;
     position: relative;
+}
+
+img:hover {
+    display: flex;
+    position: relative;
+    width: 350px;
+    height: 450px;
+    padding: 5px;
+    transition: 0.5s ease-out;
+}
+
+iframe {
+    display: flex;
+    top: 10px;
+    width: 700px;
+    height: 400px;
+}
+
+.instagram {
+    display: flex;
+    position: relative;
+    margin-left: 700px;
+    width: 50px;
+    height: 50px;
+}
+
+.instagram:hover {
+    display: flex;
+    position: relative;
+    width: 70px;
+    height: 70px;
+    padding: 5px;
+    transition: 0.5s ease-out;
+}
+
+.Set {
+    display: flex;
+    position: relative;
+    width: 150px;
+    height: 150px;
+}
+
+.Set:hover {
+    display: flex;
+    position: relative;
+    width: 300px;
+    height: 300px;
+    transition: 0.5s ease-out;
 }
